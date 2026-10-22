@@ -21,7 +21,7 @@ Note : la librairie est inclus dans le projet (elle est un peu volumineuse d'ail
 
 ## Comment le lancer
 
-Si guthub pages est toujours en ligne (pas garanti) : ```https://elfamosobob.github.io/lsf_sign_recognizer/```
+Si github pages est toujours en ligne (pas garanti) : ```https://elfamosobob.github.io/lsf_sign_recognizer/```
 
 Soit vous téléchargez le projet et vous tapez dans le repo sur linux : 
 ```python -m http.server 4000```
