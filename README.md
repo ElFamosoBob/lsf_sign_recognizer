@@ -1,10 +1,10 @@
 # lsf_sign_recognizer
 
-## Qu'est-ce que c'est ?'
+## Qu'est-ce que c'est ?
 
 Un site web qui détecte quelques signes de la Langues des Signes Françaises grâce à votre webcam. Purement statique (pas de serveurs, tout les images restent sur votre pc).
 
-## D'où ça sort ?'
+## D'où ça sort ?
 
 Ce projet est tiré d'un site web que j'ai fait, disponible sur mon github, LumIA. Une des énigmes était de signer certaines lettres, détectées par la caméra. J'ai essayé d'expérimenter avec ça, et c'est ce projet. C'est pas un code qui est bien fait ou quoi que ce soit, c'est juste au stade de prototype pour l'instant. Je pense que de toutes façons le format web limite un peu les performances.
 
@@ -18,9 +18,9 @@ Note : la librairie est inclus dans le projet (elle est un peu volumineuse d'ail
 
 ## Comment le lancer
 
-Soit vous cliquez sur le lien github pages s'il est toujours en ligne, soit vous télécharger le projet et dans le repo sur linux : 
+Soit vous cliquez sur le lien github pages s'il est toujours en ligne, soit vous téléchargez le projet et vous tapez dans le repo sur linux : 
 ```python -m http.server 4000```
 
 Et ensuite dans votre naviguateur allez à l'adresse : http://localhost:4000
 
-Si vous êtes sur windows... vous n'avez pas honte ? Il faudra aussi lancer un serveur python mais je ne sais guère comment faire.😁'
+Si vous êtes sur windows... vous n'avez pas honte ? Il faudra aussi lancer un serveur python mais je ne sais guère comment faire.😁
