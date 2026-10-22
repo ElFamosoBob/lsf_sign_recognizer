@@ -12,13 +12,18 @@ Ce projet est tiré d'un site web que j'ai fait, disponible sur mon github, LumI
 
 Pour ce qui est de comment ça marche : une librairie de reconnaissance de mains et faciale, Mediapipe, pose dès qu'elle détecte des points sur les mains / le visage. On peut customiser le nombre de main détectés mais plus il y en a plus les performances sont mauvaises. Aussi chaque image que Mediapipe traite est compressée en 192*192 donc il vaut mieux faire les signes proches de la caméra sinon la compression fait que la détection ne marche pas bien. 
 
+Magnifique main avec les fameux points : 
+![Main avec les poitns mis par Mediapipe](./gand_mediapipie.png)
+
 Ensuite on interprète la position des ces points pour détecter certains signes : si par exemple tous les doigts sont repliés sauf le pouce et que l'orientation et vers le haut, on interprète le geste "super".
 
 Note : la librairie est inclus dans le projet (elle est un peu volumineuse d'ailleurs), le site est vraiment purement statique.
 
 ## Comment le lancer
 
-Soit vous cliquez sur le lien github pages s'il est toujours en ligne, soit vous téléchargez le projet et vous tapez dans le repo sur linux : 
+Si guthub pages est toujours en ligne (pas garanti) : ```https://elfamosobob.github.io/lsf_sign_recognizer/```
+
+Soit vous téléchargez le projet et vous tapez dans le repo sur linux : 
 ```python -m http.server 4000```
 
 Et ensuite dans votre naviguateur allez à l'adresse : http://localhost:4000
