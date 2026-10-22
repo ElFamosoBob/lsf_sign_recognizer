@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconnaissance LSF</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Reconnaissance LSF</h1>
+
+    <div id="video-view" class="videoView">
+        <video id="webcam" autoplay playsinline muted></video>
+        <canvas id="mp_canvas" width="640" height="480"></canvas>
+    </div>
+
+    <div id="lsf-sign-box" class="output-box">Caméra éteinte</div>
+
+    <button id="btn-webcam" disabled>Chargement du modèle…</button>
+    <div id="status" class="status"></div>
+    <div id="stats" class="stats"></div>
+
+    <details id="diagnostics" class="diagnostics">
+        <summary>Diagnostic</summary>
+        <div class="diagnostics-actions">
+            <button id="btn-copy" type="button">Copier</button>
+            <button id="btn-copy-delayed" type="button">Copier dans 3 s</button>
+            <span id="copy-feedback" class="copy-feedback"></span>
+        </div>
+        <pre id="diagnostics-output"></pre>
+    </details>
+
+    <section class="sign-catalog">
+        <h2>Gestes reconnus</h2>
+        <div id="sign-list"></div>
+    </section>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
